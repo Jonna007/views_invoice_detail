@@ -16,13 +16,15 @@ SELECT
 FROM invoice i
 JOIN client c ON i.client_id = c.id;
 ```
-![Creacion invoice_view]("C:\Users\windows\OneDrive\Imágenes\Screenshots\Captura de pantalla 2024-06-24 233029.png")
+
+![Captura de pantalla 2024-06-24 232928](https://github.com/Jonna007/views_invoice_detail/assets/146044709/2979d550-890a-43bd-8869-f51ba658b136)
 
 
 ### Ejemplo de Uso:
 ```sql
 SELECT * FROM invoice_view;
 ```
+![Captura de pantalla 2024-06-24 235930](https://github.com/Jonna007/views_invoice_detail/assets/146044709/95faa36d-2585-4bb6-a746-a7d344c3e31b)
 
 
 ## 2. `detail_view`
@@ -41,10 +43,12 @@ SELECT
 FROM detail d
 JOIN product p ON d.product_id = p.id;
 ```
+![Captura de pantalla 2024-06-24 233029](https://github.com/Jonna007/views_invoice_detail/assets/146044709/56c5befa-edc8-4918-a60b-d7b0b15b2560)
 
 ### Ejemplo de Uso:
 ```sql
 SELECT * FROM detail_view;
 ```
+![Captura de pantalla 2024-06-25 000010](https://github.com/Jonna007/views_invoice_detail/assets/146044709/b5c7117a-e838-497c-b92a-97c1214b0f0a)
 
 
